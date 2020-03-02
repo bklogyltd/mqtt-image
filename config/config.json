@@ -1,0 +1,20 @@
+{
+  "local": {
+    "ITEM_PER_PAGE": 10,
+    "URL": "http://dawaco.local",
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://172.18.0.4:27017,172.18.0.2:27018,172.18.0.3:27019/db?replicaSet=rs0",
+    "JWT_SECRET": "dkgdjk09548djkhg9034djhgkdjkfh349u589kotoiut",
+    "APP_NAME": "Dawaco",
+    "APP_SHORT_NAME": "DWC"
+  },
+  "development": {
+    "ITEM_PER_PAGE": 10,
+    "URL": "http://localhost",
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:30001,localhost:30002,localhost:30003/db?replicaSet=rs0",
+    "JWT_SECRET": "dkgdjk09548djkhg9034djhgkdjkfh349u589kotoiut",
+    "APP_NAME": "Dawaco",
+    "APP_SHORT_NAME": "DWC"
+  }
+}
